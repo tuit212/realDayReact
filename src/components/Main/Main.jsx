@@ -3,9 +3,9 @@ import Carousel from './Carusel/Carusel'
 
 function Main() {
     return (
-        <div>
+        <>
             <Carousel/>
-        </div>
+        </>
     )
 }
 

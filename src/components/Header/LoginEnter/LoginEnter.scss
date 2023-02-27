@@ -1,0 +1,42 @@
+.header__singIn{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header__kirish{
+    filter: drop-shadow(0px 2px 13px rgba(0, 0, 0, 0.13));
+    padding: 13px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 17px;
+    font-size: 14px;
+    color: #FF416C;
+    transition: all 0.5s;
+
+    &:active{
+        transform: scale(0.9);
+    }
+}
+.header_register{
+    filter: drop-shadow(0px 2px 13px rgba(0, 0, 0, 0.13));
+    padding: 13px 12px;
+    background-color: #FF416C;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+
+    &:active{
+        transform: scale(0.9);
+    }
+}

@@ -1,0 +1,31 @@
+fonts 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+rang
+
+background: #FF416C;
+background: #F9F9F9;
+background: #E8F6FD;
+background: #FEF9F9;
+background: #FFC131;
+background: #4C4C4C;
+background: #219630;
+background: #FFF6F2;
+
+
+header 
+
+Katalog
+Menenjer
+Kredit
+Asal oyi
+Portfolio
+Aloqa
+
+uz 
+ru
+
+Kirish
+Registratsiya

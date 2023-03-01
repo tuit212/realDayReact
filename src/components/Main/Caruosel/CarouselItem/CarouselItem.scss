@@ -27,7 +27,7 @@
     .carousel-btn{
         text-decoration: none;
         display: block;
-        width: 70%;
+        width: 48%;
         text-align: center;
         padding: 15px 0;
         font-weight: 500;
@@ -36,5 +36,13 @@
         color: #FFFFFF;
         border-radius: 20px;
         background: #E4BD63;
+        transition: all 0.5s;
+        border: 1px solid transparent;
+
+        &:hover{
+            border: 1px solid #FF416C;
+            background-color: #FFFFFF;
+            color: #FF416C;
+        }
     }
 }

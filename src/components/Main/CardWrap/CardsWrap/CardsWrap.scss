@@ -1,0 +1,42 @@
+.cardsWrap{
+    width: 23%;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 12px rgba(255, 16, 16, 0.14);
+    border-radius: 20px;
+    padding: 15px 40px 30px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #8E8888;
+    transition: all 0.3s;
+
+    & > i {
+        font-size: 22px;
+    }
+
+    & > p {
+        margin: 0;
+        margin-top: 15px;
+        padding: 0;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #8E8888;
+    }
+
+    &:hover{
+        color: #FF416C;
+        
+        & > p {
+            color: #FF416C;
+        }
+    }
+}
+.active{
+    color: #FF416C;
+        
+    & > p {
+        color: #FF416C;
+        font-weight: bold;
+    }
+}

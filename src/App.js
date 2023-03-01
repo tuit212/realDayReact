@@ -5,12 +5,13 @@ import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
 import NotFound from "./common/404/NotFound";
 import SingIn from "./components/SingIn/SingIn";
+import Wedding from "./Pages/Wedding/Wedding";
 
 
 function App() {
 
-  // const users = true;
-  const users = false;
+  const users = true;
+  // const users = false;
 
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
         <Route path="/login" element={users ? <Navigate to="/" /> : <Login/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<SingIn/>} />
+        <Route path="/wedding" element={<Wedding/>} />
         <Route path="*" element={<NotFound/> }/>
       </Routes>
       <Footer/>

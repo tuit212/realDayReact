@@ -1,0 +1,30 @@
+.services{
+    padding: 90px 100px 0 100px;
+}
+.services__top{
+    margin: 0 auto;
+    text-align: center;
+    width: 55%;
+    margin-bottom: 38px;
+
+    & > h3 {
+        font-weight: 500;
+        line-height: 39px;
+        font-size: 32px;
+        margin: 0;
+    }
+    
+    & > p {
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 18px;
+        margin: 18px 0 0 0;
+    }
+}
+.services__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}

@@ -1,8 +1,9 @@
 import React from 'react'
+import "./NotFound.scss"
 
 function NotFound() {
   return (
-    <div style={{textAlign:"center" , fontSize:"30px" , padding:"30px"}}>
+    <div className='NotFound'>
       404
     </div>
   )

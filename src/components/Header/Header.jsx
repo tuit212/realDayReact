@@ -2,20 +2,29 @@ import React from 'react'
 import "./Header.scss"
 import Navbar from './Navbar'
 import { Link } from 'react-router-dom'
+import Logo from '../../Assets/images/logo.svg';
 import LoginEnter from './LoginEnter/LoginEnter'
 
-function Header() {
+function Header({users}) {
     return (
         <>
             <header className="site-header">
                 {/* site logo */}
-                <Link to={"/"} className='header__logo'>Real<span>Day</span></Link>
+                {
+                    users ? (
+                        <Link to={"/"} className='header__logo'>
+                            <img src={Logo} alt="logo" style={{width: "133px"}} />
+                        </Link>
+                    ) : (
+                        <Link to={"/"} className='header__logo'>Real<span>Day</span></Link>
+                    )
+                }
 
                 {/* navbar  */}
                 <Navbar/>
 
                 {/* translate and login */}
-                <LoginEnter/>
+                <LoginEnter users={users}/>
             </header>
         </>
     )

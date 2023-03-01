@@ -1,11 +1,10 @@
 import React from 'react'
-import Carousel from './Carusel/Carusel'
 
 function Main() {
     return (
-        <>
-            <Carousel/>
-        </>
+        <div style={{paddingTop:"300px"}}>
+            main
+        </div>
     )
 }
 

@@ -40,3 +40,17 @@
         transform: scale(0.9);
     }
 }
+#name_header{
+
+    & > i {
+        margin-right: 10px;
+    }
+}
+#header_list{
+    display: flex;
+    gap: 20px;
+}
+.header_item{
+    display: flex;
+    gap: 20px;
+}

@@ -3,11 +3,11 @@ import Translate from '../Translate/Translate'
 import SingIn from './SingIn'
 import "./LoginEnter.scss"
 
-function LoginEnter() {
+function LoginEnter({users}) {
     return (
         <div className='header__singIn'>
             <Translate/>
-            <SingIn/>
+            <SingIn users={users} />
         </div>
     )
 }

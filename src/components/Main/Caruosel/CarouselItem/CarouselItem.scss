@@ -1,0 +1,40 @@
+.carousel-caption{
+    left: 15% !important;
+    text-align: left;
+    bottom: 27%;
+    width: 40%;
+
+    & > h3 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        font-style: normal;
+        color: #FFFFFF;
+        text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.49);
+    }
+
+    & > p {
+        font-family: 'Montserrat';
+        width: 71%;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+        color: #FFFFFF;
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.43);
+    }
+
+    .carousel-btn{
+        text-decoration: none;
+        display: block;
+        width: 70%;
+        text-align: center;
+        padding: 15px 0;
+        font-weight: 500;
+        line-height: 23px;
+        font-size: 20px;
+        color: #FFFFFF;
+        border-radius: 20px;
+        background: #E4BD63;
+    }
+}

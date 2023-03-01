@@ -1,0 +1,17 @@
+#carousel{
+    height: 507px;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+    z-index: -1;
+}
+.carousel{
+    transition: all 0.5s ease;
+}
+.carousel:hover {
+
+    .carousel-control-next , .carousel-control-prev{
+        z-index: 1;
+        opacity: 1;
+    }
+}

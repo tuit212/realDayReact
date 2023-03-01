@@ -2,7 +2,9 @@ import React from 'react'
 
 function MainCards() {
   return (
-    <div>MainCards</div>
+    <div>
+      
+    </div>
   )
 }
 

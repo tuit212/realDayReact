@@ -87,5 +87,38 @@
             line-height: 24px;
             font-weight: 500;
         }
+
+        .learn_btn{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            padding: 15px 0;
+
+            .ler{
+                cursor: pointer;
+
+                & > i {
+                    font-size: 22px;
+                }
+
+                & > p {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+
+            .facebook {
+                color: #0f5a97;
+            }
+
+            .instagram {
+              color: #e32828;
+            }
+
+            .google {
+              color: #0f9761;
+            }
+        }
     }
 }

@@ -15,6 +15,20 @@ function Login() {
                         <label htmlFor="tel">Parol</label>
                         <input type="password" id='password' name='password'  placeholder='****'  />
                     </div>
+                    <div className='learn_btn'>
+                        <div className="facebook ler">
+                            <i class="fa-brands fa-facebook"></i>
+                            <p>Facebook</p>
+                        </div>
+                        <div className="instagram ler">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>Instagram</p>
+                        </div>
+                        <div className="google ler">
+                            <i class="fa-brands fa-google"></i>
+                            <p>Google</p>
+                        </div>
+                    </div>
                     <button type="submit" className='btn'>Login</button>
                 </div>
             </div>

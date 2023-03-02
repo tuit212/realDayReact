@@ -6,10 +6,30 @@ import Login from "./components/Login/Login";
 import NotFound from "./common/404/NotFound";
 import SingIn from "./components/SingIn/SingIn";
 import Wedding from "./Pages/Wedding/Wedding";
+import { useState , useEffect } from 'react'
+import api from './data/data'
 
 
 function App() {
 
+  const [posts , setPost] = useState([])
+
+    useEffect(() => {
+        const data =  async () => {
+            try {
+                const res = await api.get('/api/posts')
+                setPost(...posts , res.data)
+                console.log(res.data);
+            }
+             catch(err){
+
+            }
+        }
+        data();
+    } )
+
+
+    
   // const users = true;
   const users = false;
 

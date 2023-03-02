@@ -24,7 +24,7 @@ function App() {
         <Route path="/wedding" element={<Wedding/>} />
         <Route path="*" element={<NotFound/> }/>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

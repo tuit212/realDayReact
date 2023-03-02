@@ -1,4 +1,5 @@
 import React from 'react'
+import Btn from '../../../common/Btn/Btn'
 import './mainCards.scss'
 import MainCardsLeftBottom from './MainCardsLeftBottom/MainCardsLeftBottom'
 import MainCardsLeftTop from './MainCardsLeftTop/MainCardsLeftTop'
@@ -18,6 +19,7 @@ function MainCards() {
            <MainCardsRighrBottom/>
         </div>
       </div>
+      <Btn text="Barchasini ko’rish" link={"/salom"} />
     </div>
   )
 }

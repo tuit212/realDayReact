@@ -1,0 +1,103 @@
+.mainCardsLeftTop{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 405px;
+}
+#mainCardsLeftTop{
+    width: 48%;
+    height: 100%;
+
+    & > img {
+        width: 100%;
+    }
+}
+#img{
+    width: 270px;
+    position: relative;
+
+    & > img {
+        width: 100%;
+    }
+
+    .mainCardsLeftTop_context{
+        position: absolute;
+        bottom: 0;
+        background: linear-gradient(0deg, #FFFFFF 67.04%, rgba(255, 255, 255, 0.38) 108.62%);
+        border-radius: 0px 0px 20px 20px;
+        width: 100%;
+        padding: 10px 30px 15px 50px;
+    
+        & > h4 {
+            font-weight: 500;
+            line-height: 22px;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+        }
+    
+        & > p {
+            font-weight: 400;
+            line-height: 18px;
+            font-size: 15px;
+            margin: 0;
+            margin-top: 11px;
+        }
+    
+        .cardLink{
+            display: none;
+        }
+    
+       
+    }
+
+    &:hover{
+        
+        .mainCardsLeftTop_context{
+            height: 100%;
+            background: linear-gradient(0deg, #FFFFFF 2.04%, rgba(255, 255, 255, 0.28) );
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            & > h4 {
+                font-weight: 500;
+                line-height: 39px;
+                font-size: 28px;
+                margin: 0;
+                padding: 0;
+            }
+        
+            & > p {
+                font-weight: 500;
+                line-height: 20px;
+                font-size: 16px;
+                margin: 0;
+                margin-top: 11px;
+            }
+
+            .cardLink{
+                display: block;
+                background: #FFFFFF;
+                border-radius: 12px;
+                box-shadow: 0px 5px 11px #D9B76A;
+                width: 50%;
+                padding: 7px 0;
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 30px;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 16px;
+                color: #000000;
+                transition: all 0.5s ease;
+
+                &:hover{
+                    color: #FFFFFF;
+                    background-color: #FF416C;
+                }
+            }
+        }
+    }
+}

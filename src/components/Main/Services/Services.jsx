@@ -3,6 +3,7 @@ import './Services.scss'
 import ServicesItem from './ServicesItem/ServicesItem'
 
 
+
 function Services() {
     return (
         <div className='container services'>
@@ -14,18 +15,22 @@ function Services() {
                     </p>
                 </div>
                 <div className="services__center">
-                    <ServicesItem desc='To’yxona' />
-                    <ServicesItem desc='Taklifnomalar' />
-                    <ServicesItem desc='Gullar' />
-                    <ServicesItem desc='Uzuk' />
-                    <ServicesItem desc='To’y liboslari' />
-                    <ServicesItem desc='San’atkorlar' />
-                    <ServicesItem desc='Sartarosh/Stilistlar' />
-                    <ServicesItem desc='Sahna bezagi' />
-                    <ServicesItem desc='Sozandalar' />
-                    <ServicesItem desc='To’y avtomobili' />
-                    <ServicesItem desc='Shirinliklar' />
-                    <ServicesItem desc='Sovg’alar' />
+                    <ServicesItem desc='To’yxona' link="/wedding" />
+                    <ServicesItem desc='Taklifnomalar' link="/invitations" />
+                    <ServicesItem desc='Gullar' link="/flowers" />
+                    <ServicesItem desc='Uzuk'  link="/ring" />
+                    <ServicesItem desc='To’y liboslari' link="/weddingDresses" />
+                    <ServicesItem desc='San’atkorlar' link="/artists" />
+                    <ServicesItem desc='Sartarosh/Stilistlar' link="/hairdresser" />
+                    <ServicesItem desc='Sahna bezagi' link="stageDecoration"  />
+                    <ServicesItem desc='Sozandalar' link="/composers" />
+                    <ServicesItem desc='To’y avtomobili' link="weddingCard" />
+                    <ServicesItem desc='Shirinliklar'  link="sweets" />
+                    <ServicesItem desc='Sovg’alar' link="gifts" />
+                    <ServicesItem desc='Foto Video operator' link="photoVideoOperator" />
+                    <ServicesItem desc='Oshpazlar' link="chefs" />
+                    <ServicesItem desc='Multi qahramonlar' link="multiHeroes" />
+                    <ServicesItem desc='FotoStudio' link="fotoStudio" />
                 </div>
             </div>
         </div>

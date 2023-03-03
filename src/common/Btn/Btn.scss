@@ -1,0 +1,18 @@
+.btn{
+    display: block;
+    width: 17%;
+    padding: 20px 0;
+    text-decoration: none;
+    border-radius: 12px;
+    background: #FFC131;
+    margin: 20px auto;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 18px;
+    transition: all 0.5s;
+
+    &:hover{
+        background-color: #FF416C;
+        color: #fff;
+    }
+}

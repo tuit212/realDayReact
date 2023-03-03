@@ -1,0 +1,12 @@
+.mainCards{
+    margin-top: 40px;
+    padding: 0 100px;
+}
+.mainCards-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.MainCardsLeft , .MainCardsRight {
+    width: 48%;
+}

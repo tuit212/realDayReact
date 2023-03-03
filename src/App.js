@@ -9,6 +9,9 @@ import SingIn from "./components/SingIn/SingIn";
 import Wedding from "./Pages/Wedding/Wedding";
 import UserConText from "./context/UserContext";
 import api from './data/data'
+import WeddingCars from "./Pages/WeddingCars/WeddingCars";
+import RIng from "./Pages/Ring/RIng";
+import MultiHeroes from "./Pages/MultiHeroes/MultiHeroes";
 
 
 function App({bool}) {
@@ -65,6 +68,9 @@ function App({bool}) {
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<SingIn/>} />
         <Route path="/wedding" element={<Wedding/>} />
+        <Route path="/weddingCard"  element={<WeddingCars/>} />
+        <Route path="/ring" element={<RIng/>} />
+        <Route path="/multiHeroes" element={<MultiHeroes/>} />
         <Route path="*" element={<NotFound/> }/>
       </Routes>
       <Footer/>

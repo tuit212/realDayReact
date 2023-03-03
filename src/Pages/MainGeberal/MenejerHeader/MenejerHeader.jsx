@@ -1,0 +1,25 @@
+import React from 'react'
+import './MenejerHeader.scss'
+import {Link} from 'react-router-dom'
+import Btn from '../../../common/Btn/Btn'
+function MenejerHeader() {
+  return (
+    <div className='MenejerHeader'>
+        <div className="container">
+            <div className="box">
+                <h1 className="box__title">
+                    Menenjer xizmati
+                </h1>
+                <p className="box__text">
+                    Barcha xizmatlarni kredit orqali yopish imkoni
+                </p>
+                <button className="box__btn">
+                     Biz haqimizda
+                </button>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default MenejerHeader

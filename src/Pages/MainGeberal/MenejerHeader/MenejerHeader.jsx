@@ -1,9 +1,7 @@
 import React from 'react'
 import './MenejerHeader.scss'
-<<<<<<< HEAD
 
-=======
->>>>>>> 1d02dfae352a2b4b7d1d69cdb07127ee8e3a1e28
+
 function MenejerHeader() {
   return (
     <div className='MenejerHeader'>

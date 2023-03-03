@@ -1,20 +1,20 @@
 import React from 'react'
 import PagesHero from '../../common/PagesHero/PagesHero'
-import './Wedding.scss'
+import './Ring.scss'
 
-function Wedding() {
+function RIng() {
     return (
         <div className='section-ring' style={{paddingTop:'70px'}}>
-            <div id="weddingHero">
+            <div id="ringHero">
                 <PagesHero
-                    title="To’yxonalar, Banketniy zal"
+                    title="Uzuklar"
                     desc="O'zingiz uchun eng yaxshi to'yxonalardan  mukammal joyni toping."
-                    link = "/wedding"
-                    text="To’yxonalar"
+                    link = "/ring"
+                    text="Uzuklar"
                 />
             </div>
         </div>
     )
 }
 
-export default Wedding
+export default RIng

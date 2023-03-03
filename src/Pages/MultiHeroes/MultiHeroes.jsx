@@ -1,20 +1,21 @@
 import React from 'react'
 import PagesHero from '../../common/PagesHero/PagesHero'
-import './Wedding.scss'
+import './MultiHeroes.scss'
 
-function Wedding() {
+
+function MultiHeroes() {
     return (
         <div className='section-ring' style={{paddingTop:'70px'}}>
-            <div id="weddingHero">
+            <div id="multiHero">
                 <PagesHero
-                    title="To’yxonalar, Banketniy zal"
+                    title="Multi qahramonlar"
                     desc="O'zingiz uchun eng yaxshi to'yxonalardan  mukammal joyni toping."
-                    link = "/wedding"
-                    text="To’yxonalar"
+                    link = "/multiHeroes"
+                    text="Multi qahramonlar"
                 />
             </div>
         </div>
     )
 }
 
-export default Wedding
+export default MultiHeroes

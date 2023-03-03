@@ -1,7 +1,5 @@
 import React from 'react'
 import './MenejerHeader.scss'
-import {Link} from 'react-router-dom'
-import Btn from '../../../common/Btn/Btn'
 function MenejerHeader() {
   return (
     <div className='MenejerHeader'>

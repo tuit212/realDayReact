@@ -3,7 +3,7 @@ import React from 'react'
 function WeddingHero() {
     return (
         <div>
-           SALOM
+           SALOM Ali k
         </div>
     )
 }

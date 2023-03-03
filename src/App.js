@@ -13,6 +13,7 @@ import WeddingCars from "./Pages/WeddingCars/WeddingCars";
 import RIng from "./Pages/Ring/RIng";
 import MultiHeroes from "./Pages/MultiHeroes/MultiHeroes";
 import MainGeneral from "./Pages/MainGeberal/MainGeneral";
+import StageDecoration from "./Pages/StageDecoration/StageDecoration.jsx";
 
 
 
@@ -74,6 +75,7 @@ function App({bool}) {
         <Route path="/weddingCard"  element={<WeddingCars/>} />
         <Route path="/ring" element={<RIng/>} />
         <Route path="/multiHeroes" element={<MultiHeroes/>} />
+        <Route path="/stageDecoration" element={<StageDecoration/>} />
         <Route path="*" element={<NotFound/> }/>
       </Routes>
       <Footer/>

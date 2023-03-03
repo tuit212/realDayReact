@@ -1,0 +1,135 @@
+.MenegerOneSection{
+    padding: 50px 100px;
+    
+    
+    .Card{
+        &__title1{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 34px;
+            color: #000000;
+            background-color: #83EABC;
+            width: 34%;
+            padding: 3px;
+        }
+        
+        &__title2{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 34px;
+            color: #000000;
+        }
+        
+        &__list1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        
+        &__item{
+            width: 23%;
+            transition: .3s;
+            border-bottom: 4px solid transparent;
+            
+            &:hover{
+            border-bottom: 4px solid  #FF426D;
+            
+            }
+            &__title{
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                color: #FF416C;
+            }
+        }
+    }
+    .carcarusel{
+
+        
+       
+
+        &__list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 100px;
+                        
+            &__item{
+                width: 45%;
+                &__img{
+                    width: 100%;
+                }
+                
+                &__title{
+                    font-family: 'Montserrat';
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 30px;
+                    color: #9F9F9F;
+                    width: 90%;
+                }
+                
+                &__tel{
+                    padding: 10px 30px;
+                    list-style: none;
+                    text-decoration: none;
+                    background: #FF416C;
+                    border-radius: 23px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    margin-top: 6px;
+                    display: block;
+                    width: 50%;
+                    text-align: center;
+                }
+                &__card{
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    padding: 20px 0;
+                    
+                    &__btn{
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #000000;;
+                        border: none;
+                        padding: 3px;
+                        &:hover{
+                            opacity: 0.5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+  
+}
+
+
+
+
+ .carousel-control{
+        color: #7B8FA1;
+    }
+    
+ .carousel-control{
+        color: #7B8FA1;
+    }
+    
+    .iconLeft{
+        font-size: 33px;
+        
+    }

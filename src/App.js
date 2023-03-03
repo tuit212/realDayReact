@@ -12,6 +12,7 @@ import api from './data/data'
 import WeddingCars from "./Pages/WeddingCars/WeddingCars";
 import RIng from "./Pages/Ring/RIng";
 import MultiHeroes from "./Pages/MultiHeroes/MultiHeroes";
+import MainGeneral from "./Pages/MainGeberal/MainGeneral";
 
 
 function App({bool}) {
@@ -68,6 +69,7 @@ function App({bool}) {
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<SingIn/>} />
         <Route path="/wedding" element={<Wedding/>} />
+        <Route path="/menenjer"  element={<MainGeneral/>} />
         <Route path="/weddingCard"  element={<WeddingCars/>} />
         <Route path="/ring" element={<RIng/>} />
         <Route path="/multiHeroes" element={<MultiHeroes/>} />

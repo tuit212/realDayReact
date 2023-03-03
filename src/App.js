@@ -14,6 +14,11 @@ import RIng from "./Pages/Ring/RIng";
 import MultiHeroes from "./Pages/MultiHeroes/MultiHeroes";
 import MainGeneral from "./Pages/MainGeberal/MainGeneral";
 import StageDecoration from "./Pages/StageDecoration/StageDecoration.jsx";
+import Invitations from "./Pages/Invitations/Invitations";
+import Flowers from "./Pages/Flowers/Flowers";
+import WDress from "./Pages/WDress/WDress";
+import Artists from "./Pages/Artists/Artists";
+import Hairdresser from "./Pages/Hairdresser/Hairdresser";
 
 
 
@@ -50,8 +55,6 @@ function App({bool}) {
   console.log(admin);
 
   const change = admin
-  // for (let i = 0; i <change.length ; i++) {
-    //   }
     
   console.log(change);
   const users = false;
@@ -76,6 +79,11 @@ function App({bool}) {
         <Route path="/ring" element={<RIng/>} />
         <Route path="/multiHeroes" element={<MultiHeroes/>} />
         <Route path="/stageDecoration" element={<StageDecoration/>} />
+        <Route path="/invitations" element={<Invitations/>} />
+        <Route path="/flowers" element={<Flowers/>} />
+        <Route path="/weddingDresses" element={<WDress/>} />
+        <Route path="/artists" element={<Artists/>} />
+        <Route path="/hairdresser" element={<Hairdresser/>} />
         <Route path="*" element={<NotFound/> }/>
       </Routes>
       <Footer/>

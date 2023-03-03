@@ -1,31 +1,22 @@
 import React from 'react'
+import { useContext } from 'react'
 import "./Login.scss"
-import { useState  } from 'react'
+import UserConText from "../../context/UserContext"
+
 
 function Login() {
 
-    
-    const [state , setState] = useState({
-        phone :null,
-        password: null,
-    })
 
-    
-    const onSubmit = (e) => {
-        e.preventDefault();
-        window.localStorage.setItem('password', state.password);
-        window.localStorage.setItem('phone', state.phone);
 
-        window.localStorage.getItem("loginValue" , state.password)
+    const  {user , setUser} = useContext(UserConText)
 
-        // if(state.phone === posts.phone && state.password === posts.password) {
-        //     console.log("true")
-
-        // } else {
-        //     console.log("err");
-        // }
+    const changInput = (evt) => {
+        setUser({...user, [evt.target.name]: evt.target.value})
+        
+        
     }
 
+    
     return (
         <div className='login'>
             <div id="login">
@@ -33,19 +24,15 @@ function Login() {
                 <div className="login_input">
                     <div>
                         <label htmlFor="tel">Telefon</label>
-                        <input type="tel" id='tel' name='tel'   placeholder='+998 99 999 99 99' onChange={
-                            (evt) => setState({...state , phone : evt.target.value})
-                        }  />
+                        <input type="tel" id='tel' name='phone'   placeholder='+998 99 999 99 99'
+                            onChange={changInput}
+                        />
                     </div>
                     <div>
                         <label htmlFor="tel">Parol</label>
-                        <input type="password" id='password' name='password'  placeholder='****' 
-
-                        onChange={
-                            (evt) => setState({...state , password : evt.target.value})
-                        } 
-
-                          />
+                        <input type="password" id='password' name='password'  placeholder='****'
+                            onChange={changInput}
+                        />
                     </div>
                     <div className='learn_btn'>
                         <div className="facebook ler">
@@ -61,7 +48,7 @@ function Login() {
                             <p>Google</p>
                         </div>
                     </div>
-                    <button type="submit" className='btn' onClick={onSubmit}>Login</button>
+                    <button className='btn' onClick={changInput} >Login</button>
                 </div>
             </div>
         </div>

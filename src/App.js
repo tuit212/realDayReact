@@ -19,6 +19,7 @@ import Flowers from "./Pages/Flowers/Flowers";
 import WDress from "./Pages/WDress/WDress";
 import Artists from "./Pages/Artists/Artists";
 import Hairdresser from "./Pages/Hairdresser/Hairdresser";
+import PagesNav from "./common/PagesNav/PagesNav";
 
 
 
@@ -84,6 +85,7 @@ function App({bool}) {
         <Route path="/weddingDresses" element={<WDress/>} />
         <Route path="/artists" element={<Artists/>} />
         <Route path="/hairdresser" element={<Hairdresser/>} />
+        <Route path="/s" element={<PagesNav/>} />
         <Route path="*" element={<NotFound/> }/>
       </Routes>
       <Footer/>

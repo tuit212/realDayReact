@@ -9,7 +9,11 @@ function MenegerTwoSection() {
   return (
     <div className='MenegerTwoSection'>
         <div className="container">
+                                <h2 className='box__title'> Portfolio</h2>
+                    <p className='box__text' >Bu bizning ijot namunalarimizdan. bizning mijozlar o’z surat va videolarini bizning 
+sahifaga joylashtirishga doimo rozi bo’lishadi.</p>
             <div className="box">
+
                 <div className="box__left">
                     <ul className="box__left__list">
                     <div className="box__left__list__card">
@@ -47,7 +51,6 @@ function MenegerTwoSection() {
                                 <img src={Img5} alt="" className='box__right__list1__item__img' />
                             </li>
                         </div>
-                        
                     </ul>
                 </div>
             </div>

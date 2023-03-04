@@ -1,10 +1,32 @@
 .MenegerTwoSection{
-    padding: 0 100px;
+    padding: 30px 100px;
     background-color: rgb(252, 246, 242);
     
+      
     
     .box{
-    display: flex;
+     display: flex;
+      &__title{
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #000000;
+        padding: 10px 0;
+        }
+        &__text{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+            width: 55%;
+            padding-bottom: 20px;
+            margin: 0 auto;
+        }
         &__left{
          &__item{
                     &__img4{
@@ -42,6 +64,12 @@
                         
                         &__img1{
                             margin-bottom: 10px;
+                            
+                            &:hover{
+                                
+background: linear-gradient(86.62deg, #EBEBEB 55.84%, rgba(194, 191, 191, 0) 88.17%);
+mix-blend-mode: hard-light;
+                            }
                         }
                     &__divs{
                         display: flex;

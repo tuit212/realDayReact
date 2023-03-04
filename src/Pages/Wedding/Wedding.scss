@@ -5,3 +5,16 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.wedding_main{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 0 80px;
+    gap: 45px;
+
+    .wedding_right{
+        max-width: 1250px;
+        width: 100%;
+    }
+}

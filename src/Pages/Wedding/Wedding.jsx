@@ -1,6 +1,8 @@
 import React from 'react'
 import PagesHero from '../../common/PagesHero/PagesHero'
 import './Wedding.scss'
+import PagesNav from '../../common/PagesNav/PagesNav'
+import PagesConText from '../../common/PagesConText/PagesConText'
 
 function Wedding() {
     return (
@@ -12,6 +14,13 @@ function Wedding() {
                     link = "/wedding"
                     text="To’yxonalar"
                 />
+            </div>
+            <div className='wedding_main'>
+                <PagesNav/>
+                <div className='wedding_right'>
+                    <PagesConText/>
+                    <PagesConText/>
+                </div>
             </div>
         </div>
     )

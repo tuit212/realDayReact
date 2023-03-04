@@ -1,5 +1,7 @@
 import React from 'react'
 import './MenejerHeader.scss'
+
+
 function MenejerHeader() {
   return (
     <div className='MenejerHeader'>

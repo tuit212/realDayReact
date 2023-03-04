@@ -5,6 +5,7 @@ import ServicesItem from './ServicesItem/ServicesItem'
 
 
 
+
 function Services() {
     return (
         <div className='container services'>
@@ -23,7 +24,7 @@ function Services() {
                     <ServicesItem desc='To’y liboslari' link="/weddingDresses" />
                     <ServicesItem desc='San’atkorlar' link="/artists" />
                     <ServicesItem desc='Sartarosh/Stilistlar' link="/hairdresser" />
-                    <ServicesItem desc='Sahna bezagi' link="stageDecoration"  />
+                    <ServicesItem desc='Sahna bezagi' link="/stageDecoration"  />
                     <ServicesItem desc='Sozandalar' link="/composers" />
                     <ServicesItem desc='To’y avtomobili' link="weddingCard" />
                     <ServicesItem desc='Shirinliklar'  link="sweets" />

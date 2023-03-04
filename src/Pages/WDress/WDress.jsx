@@ -1,20 +1,19 @@
 import React from 'react'
 import PagesHero from '../../common/PagesHero/PagesHero'
-import './MultiHeroes.scss'
+import './WDress.scss'
 import '../Wedding/Wedding.scss'
 import PagesNav from '../../common/PagesNav/PagesNav'
 import PagesConText from '../../common/PagesConText/PagesConText'
 
-
-function MultiHeroes() {
+function WDress() {
     return (
         <div className='section-ring' style={{paddingTop:'70px'}}>
-            <div id="multiHero">
+            <div id="wDressHero">
                 <PagesHero
-                    title="Multi qahramonlar"
+                    title="Liboslar"
                     desc="O'zingiz uchun eng yaxshi to'yxonalardan  mukammal joyni toping."
-                    link = "/multiHeroes"
-                    text="Multi qahramonlar"
+                    link = "/weddingDresses"
+                    text="Liboslar"
                 />
             </div>
             <div className='wedding_main'>
@@ -31,4 +30,4 @@ function MultiHeroes() {
     )
 }
 
-export default MultiHeroes
+export default WDress

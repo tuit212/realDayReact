@@ -1,0 +1,56 @@
+.MenegerTwoSection{
+    padding: 0 100px;
+    background-color: rgb(252, 246, 242);
+    
+    
+    .box{
+    display: flex;
+        &__left{
+         &__item{
+                    &__img4{
+                        margin-top: 10px;
+                    }
+                }
+            &__list{
+               
+                &__card{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    gap: 15px;
+                    
+                    &__box{
+                    
+                        &__img2{
+                            margin-bottom: 12px;
+                            transition: 0.3s;
+                            &:hover{
+                                       background: linear-gradient(0deg, #FFFFFF 67.04%, rgba(255, 255, 255, 0.38) 108.62%);
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        &__right{
+        
+            &__list1{
+                &__item{
+                        
+                        
+                        &__img1{
+                            margin-bottom: 10px;
+                        }
+                    &__divs{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,18 +1,20 @@
 import React from 'react'
-import './MenegerOneSection.scss'
-import Img1 from '../../../Assets/MenegerImg/menegercaruse1.svg'
-import Img2 from '../../../Assets/MenegerImg/menegercaruse2.svg'
-import Img3 from '../../../Assets/MenegerImg/menegercaruse3.svg'
+import Img1 from '../../../Assets/MenegerImg/menegercaruse4.svg'
+import Img2 from '../../../Assets/MenegerImg/menegercaruse1.svg'
+import Img3 from '../../../Assets/MenegerImg/menegercaruse2.svg'
+import Img4 from '../../../Assets/MenegerImg/menegercaruse3.svg'
 import {Link} from 'react-router-dom'
+import './MenegerOneSection.scss'
 function MenegerOneSection() {
+
   return (
     <div className='MenegerOneSection'>
             <div className="container">
                 <div className="Card">
                     <h3 className='Card__title1' >Menejerdan foydalaning</h3>
                     <h3 className='Card__title2'>To’y xizmatlari uchun Wedding menejer</h3>
-                    <ul className="Card__list1">
-                        <li className="Card__item">
+                    <ul className="Card__list1"  >
+                        <li className="Card__item" >
                             <h4 className="Card__item__title">
                                 01 To’y xizmatlari
                             </h4>
@@ -51,9 +53,10 @@ function MenegerOneSection() {
                         </li>
                     </ul>
                     
+                    
+                    
+                    
                     {/* Carusell  start*/}
-                    
-                    
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
   <div class="carousel-inner">
     <div className="borrrf">
@@ -106,10 +109,31 @@ function MenegerOneSection() {
         
     </div>
     <div class="carousel-item carcarusel">
+        <ul className="carcarusel__list">
+            <li className='carcarusel__list__item'>
+                 <img src={Img3} alt=""  className='carcarusel__list__item__img'/>
+            </li>
+                 <li className='carcarusel__list__item'>
+                <p className='carcarusel__list__item__title'>
+                    Siz to’yingizni bir marotaba qilasiz. 
+                    Ushbu kunni hech qachon etiborizdan 
+                    chiqarmang.    
+                </p>
+                <div className="carcarusel__list__item__card">
+                <button className='carcarusel__list__item__card__btn'>Yubiley</button>
+                </div>
+                <Link to="tel:998882064344" className='carcarusel__list__item__tel'>
+                    Biz bilan bog’lanish
+                </Link>
+            </li>
+        </ul>
+        
+    </div>
+    <div class="carousel-item carcarusel">
     
         <ul className="carcarusel__list">
             <li className='carcarusel__list__item'>
-                  <img src={Img3} alt="" className='carcarusel__list__item__img' />
+                  <img src={Img4} alt="" className='carcarusel__list__item__img' />
             </li>
                 <li className='carcarusel__list__item'>
                 <p className='carcarusel__list__item__title'>
@@ -119,7 +143,7 @@ function MenegerOneSection() {
                 </p>
                 <div className="carcarusel__list__item__card">
                 <button className='carcarusel__list__item__card__btn'>Tug’ilgan kun</button>
-
+                <button className='carcarusel__list__item__card__btn'>Tadbirlar</button>
                 </div>
                 <Link to="tel:998882064344" className='carcarusel__list__item__tel'>
                     Biz bilan bog’lanish
@@ -138,12 +162,7 @@ function MenegerOneSection() {
     <span class="carousel-control" aria-hidden="true"><i class="fa-solid fa-chevron-right iconLeft"></i></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
-                    
-                    
-                    
-                    
-                    
+                    </div>
                     {/* Carusell  and*/}
                     
                 </div>

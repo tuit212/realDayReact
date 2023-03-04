@@ -7,7 +7,7 @@ import PagesContextTop from './PagesContextTop'
 function PagesConText() {
     return (
         <div className='pages-context'>
-            <PagesContextTop/>
+            <PagesContextTop />
             <PagesConTextCenter/>
             <PagesConTextBottom/>
         </div>

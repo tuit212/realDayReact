@@ -1,6 +1,9 @@
 import React from 'react'
 import './StageDecoration.scss'
 import PagesHero from '../../common/PagesHero/PagesHero'
+import '../Wedding/Wedding.scss'
+import PagesNav from '../../common/PagesNav/PagesNav'
+import PagesConText from '../../common/PagesConText/PagesConText'
 
 function StageDecoration() {
     return (
@@ -12,6 +15,16 @@ function StageDecoration() {
                     link = "/stageDecoration"
                     text="Sahna bezaklari"
                 />
+            </div>
+            <div className='wedding_main'>
+                <PagesNav/>
+                <div className='wedding_right'>
+                    <PagesConText/>
+                    <PagesConText/>
+                    <PagesConText/>
+                    <PagesConText/>
+                    <PagesConText/>
+                </div>
             </div>
         </div>
     )

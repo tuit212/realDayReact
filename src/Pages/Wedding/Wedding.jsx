@@ -20,6 +20,9 @@ function Wedding() {
                 <div className='wedding_right'>
                     <PagesConText/>
                     <PagesConText/>
+                    <PagesConText/>
+                    <PagesConText/>
+                    <PagesConText/>
                 </div>
             </div>
         </div>

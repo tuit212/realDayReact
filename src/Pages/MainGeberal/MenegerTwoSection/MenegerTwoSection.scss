@@ -1,0 +1,84 @@
+.MenegerTwoSection{
+    padding: 30px 100px;
+    background-color: rgb(252, 246, 242);
+    
+      
+    
+    .box{
+     display: flex;
+      &__title{
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #000000;
+        padding: 10px 0;
+        }
+        &__text{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+            width: 55%;
+            padding-bottom: 20px;
+            margin: 0 auto;
+        }
+        &__left{
+         &__item{
+                    &__img4{
+                        margin-top: 10px;
+                    }
+                }
+            &__list{
+               
+                &__card{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    gap: 15px;
+                    
+                    &__box{
+                    
+                        &__img2{
+                            margin-bottom: 12px;
+                            transition: 0.3s;
+                            &:hover{
+                                       background: linear-gradient(0deg, #FFFFFF 67.04%, rgba(255, 255, 255, 0.38) 108.62%);
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        &__right{
+        
+            &__list1{
+                &__item{
+                        
+                        
+                        &__img1{
+                            margin-bottom: 10px;
+                            
+                            &:hover{
+                                
+background: linear-gradient(86.62deg, #EBEBEB 55.84%, rgba(194, 191, 191, 0) 88.17%);
+mix-blend-mode: hard-light;
+                            }
+                        }
+                    &__divs{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -32,11 +32,10 @@
         
         &__item{
             width: 23%;
-            transition: .3s;
             border-bottom: 4px solid transparent;
             
             &:hover{
-            border-bottom: 4px solid  #FF426D;
+                 border-bottom: 4px solid #FF416C;
             
             }
             &__title{
@@ -133,3 +132,4 @@
         font-size: 33px;
         
     }
+   

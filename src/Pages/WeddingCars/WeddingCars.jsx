@@ -3,6 +3,7 @@ import PagesHero from '../../common/PagesHero/PagesHero'
 import './weddingCard.scss'
 import '../Wedding/Wedding.scss'
 import PagesNav from '../../common/PagesNav/PagesNav'
+import {posts} from "../../data/weddingCars"
 import PagesConText from '../../common/PagesConText/PagesConText'
 
 function WeddingCars() {
@@ -19,11 +20,9 @@ function WeddingCars() {
             <div className='wedding_main'>
                 <PagesNav/>
                 <div className='wedding_right'>
-                    <PagesConText/>
-                    <PagesConText/>
-                    <PagesConText/>
-                    <PagesConText/>
-                    <PagesConText/>
+                    {posts.map(post => (
+                        <PagesConText key={post.id} post={post}/>
+                    ))}
                 </div>
             </div>
         </div>

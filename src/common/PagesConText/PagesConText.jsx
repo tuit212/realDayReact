@@ -1,25 +1,18 @@
 import React from 'react'
 import './PagesConText.scss'
 import { Link } from 'react-router-dom'
-import img from '../../Assets/images/pages/wedding/pages/image.svg'
-import img1 from '../../Assets/images/pages/wedding/pages/image1.svg'
-import img2 from '../../Assets/images/pages/wedding/pages/image2.svg'
-import img3 from '../../Assets/images/pages/wedding/pages/image3.svg'
-import people from '../../Assets/images/pages/wedding/pages/people.svg'
-import salary from '../../Assets/images/pages/wedding/pages/gift2.svg'
-import gift from '../../Assets/images/pages/wedding/pages/gift.svg'
 
-function PagesConText() {
+function PagesConText({post}) {
     return (
         <div className='pages-context'>
             <div className="pages__context-top">
                 <div className="top__context">
                     <div className="border_top"></div>
                     <ul>
-                        <h3>To’yxona nomi</h3>
+                        <h3>{post.title}</h3>
                         <div>
                             <i class="fa-solid fa-location-dot"></i>
-                            <span>Toshkent sh. Shayxontohur tumani, 23 -uy</span>
+                            <span>{post.desc}</span>
                         </div>
                     </ul>
                 </div>
@@ -31,61 +24,55 @@ function PagesConText() {
                 </div>
             </div>
             <div className='img__content'>
-                <div>
-                    <img src={img} alt="" />
-                </div>
-                <div>
-                    <img src={img1} alt="" />
-                </div>
-                <div>
-                    <img src={img3} alt="" />
-                </div>
-                <div>
-                    <img src={img2} alt="" />
-                </div>
-                <div>
-                    <img src={img} alt="" />
-                </div>
-                <div>
-                    <img src={img1} alt="" />
-                </div>
-                <div>
-                    <img src={img3} alt="" />
-                </div>
-                <div>
-                    <img src={img2} alt="" />
-                </div>            
+                <Link to={post.id} className='link'>
+                    <img src={post.images} alt="" />
+                </Link>
+                <Link to={post.id} className='link'>
+                    <img src={post.img1} alt="" />
+                </Link>
+                <Link to={post.id} className='link'>
+                    <img src={post.img3} alt="" />
+                </Link>
+                <Link to={post.id} className='link'>
+                    <img src={post.images} alt="" />
+                </Link>
+                <Link to={post.id} className='link'>
+                    <img src={post.img1} alt="" />
+                </Link>
+                <Link to={post.id} className='link'>
+                    <img src={post.img3} alt="" />
+                </Link>
             </div>
             <div className='pages__bottom'>
                 <ul className='list'>
                     <li className='item'>
                         <div>
-                            <img src={people} alt="" />
+                            <img src={post.people} alt="" />
                         </div>
                         <div>
-                            <p className='title'>500</p>
+                            <p className='title'>{post.bottom}</p>
                             <span className='line'></span>
-                            <p className='text'>Sig‘imi</p>
+                            <p className='text'>{post.text}</p>
                         </div>
                     </li>
                     <li className='item'>
                         <div>
-                            <img src={salary} alt="" />
+                            <img src={post.salary} alt="" />
                         </div>
                         <div>
-                            <p className='title'>40 000-100 000 so‘m</p>
+                            <p className='title'>{post.bottom1}</p>
                             <span className='line'></span>
-                            <p className='text'>Narxi <span>(kishi boshiga)</span> </p>
+                            <p className='text'>{post.text1} <span>({post.text2})</span> </p>
                         </div>
                     </li>
                     <li className='item'>
                         <div>
-                            <img src={gift} alt="" />
+                            <img src={post.gift} alt="" />
                         </div>
                         <div>
-                            <p className='title'>Bor</p>
+                            <p className='title'>{post.bottom3}</p>
                             <span className='line'></span>
-                            <p className='text'>Qo‘shimcha bonus</p>
+                            <p className='text'>{post.text3}</p>
                         </div>
                     </li>
                 </ul>

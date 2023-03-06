@@ -24,22 +24,22 @@ function PagesConText({post}) {
                 </div>
             </div>
             <div className='img__content'>
-                <Link to={post.id} className='link'>
+                <Link  className='link'>
                     <img src={post.images} alt="" />
                 </Link>
-                <Link to={post.id} className='link'>
+                <Link  className='link'>
                     <img src={post.img1} alt="" />
                 </Link>
-                <Link to={post.id} className='link'>
+                <Link  className='link'>
                     <img src={post.img3} alt="" />
                 </Link>
-                <Link to={post.id} className='link'>
+                <Link className='link'>
                     <img src={post.images} alt="" />
                 </Link>
-                <Link to={post.id} className='link'>
+                <Link className='link'>
                     <img src={post.img1} alt="" />
                 </Link>
-                <Link to={post.id} className='link'>
+                <Link className='link'>
                     <img src={post.img3} alt="" />
                 </Link>
             </div>

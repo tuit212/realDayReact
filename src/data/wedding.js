@@ -10,7 +10,7 @@ export const posts = [
         text2 :"kishi boshiga" ,
         bottom3 : "Bor" ,
         text3 : "Qo‘shimcha bonus" ,
-        images : "../Assets/images/pages/wedding/pages/image.svg" ,
+        images : "../Assets/images/pages/wedding/pages/image.svg",
         img1 : "../Assets/images/pages/wedding/pages/image1.svg" , 
         img3 : "../Assets/images/pages/wedding/pages/image2.svg" , 
         people : "../Assets/images/pages/wedding/pages/people.svg" , 
@@ -19,3 +19,4 @@ export const posts = [
     } 
     
 ]
+

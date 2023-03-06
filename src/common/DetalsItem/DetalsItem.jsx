@@ -9,7 +9,7 @@ function DetalsItem() {
 
     // console.log(id);
 
-    const post = posts.find((item) => item.id === id)
+    const post = posts.find((item) => item.id === id - 0)
 
 
 

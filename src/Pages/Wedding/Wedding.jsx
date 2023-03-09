@@ -5,6 +5,7 @@ import PagesNav from '../../common/PagesNav/PagesNav'
 import PagesConText from '../../common/PagesConText/PagesConText'
 import {posts} from "../../data/wedding.js"
 
+
 function Wedding() {
     return (
         <div className='section-ring' style={{paddingTop:'70px'}}>

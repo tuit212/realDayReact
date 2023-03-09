@@ -43,12 +43,14 @@ function App({bool}) {
         <Route path="wedding/:id" element={<DetalsItem/>} />
         <Route path="/menenjer"  element={<MainGeneral/>} />
         <Route path="/weddingCard"  element={<WeddingCars/>} />
+        <Route path="weddingCard/:id" element={<DetalsItem/>} />
         <Route path="/ring" element={<RIng/>} />
         <Route path="/multiHeroes" element={<MultiHeroes/>} />
         <Route path="/stageDecoration" element={<StageDecoration/>} />
         <Route path="/invitations" element={<Invitations/>} />
         <Route path="/flowers" element={<Flowers/>} />
         <Route path="/weddingDresses" element={<WDress/>} />
+        <Route path="weddingDresses/:id" element={<DetalsItem/>} />
         <Route path="/artists" element={<Artists/>} />
         <Route path="/hairdresser" element={<Hairdresser/>} />
         <Route path="*" element={<NotFound/> }/>

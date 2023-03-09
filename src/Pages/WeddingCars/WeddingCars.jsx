@@ -6,6 +6,7 @@ import PagesNav from '../../common/PagesNav/PagesNav'
 import {posts} from "../../data/weddingCars"
 import PagesConText from '../../common/PagesConText/PagesConText'
 
+
 function WeddingCars() {
     return (
         <div className='section-cars' style={{paddingTop:'70px'}}>

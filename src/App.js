@@ -13,6 +13,7 @@ import WeddingCars from "./Pages/WeddingCars/WeddingCars";
 import RIng from "./Pages/Ring/RIng";
 import MultiHeroes from "./Pages/MultiHeroes/MultiHeroes";
 import MainGeneral from "./Pages/MainGeberal/MainGeneral";
+import StageDecoration from "./Pages/StageDecoration/StageDecoration.jsx";
 import Invitations from "./Pages/Invitations/Invitations";
 import Flowers from "./Pages/Flowers/Flowers";
 import WDress from "./Pages/WDress/WDress";
@@ -33,6 +34,8 @@ function App({bool}) {
   window.localStorage.setItem('phone', user.phone)
   window.localStorage.setItem('password', user.password)
 
+  // const phone = window.localStorage.getItem('phone')
+  // const password = window.localStorage.getItem('password')
 
 
   const [admin  , setAdmin] = useState()
@@ -76,6 +79,7 @@ function App({bool}) {
         <Route path="/weddingCard"  element={<WeddingCars/>} />
         <Route path="/ring" element={<RIng/>} />
         <Route path="/multiHeroes" element={<MultiHeroes/>} />
+        <Route path="/stageDecoration" element={<StageDecoration/>} />
         <Route path="/invitations" element={<Invitations/>} />
         <Route path="/flowers" element={<Flowers/>} />
         <Route path="/weddingDresses" element={<WDress/>} />

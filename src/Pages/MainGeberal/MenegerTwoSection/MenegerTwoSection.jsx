@@ -5,7 +5,6 @@ import Img2 from '../../../Assets/MenegerTwoSectionImg/MenegerTwoSection2.svg'
 import Img3 from '../../../Assets/MenegerTwoSectionImg/MenegerTwoSection3.svg'
 import Img4 from '../../../Assets/MenegerTwoSectionImg/MenegerTwoSection4.svg'
 import Img5 from '../../../Assets/MenegerTwoSectionImg/listr.svg'
-import img22 from '../../../Assets/MenegerTwoSectionImg/bacWight.svg'
 function MenegerTwoSection() {
   return (
     <div className='MenegerTwoSection'>

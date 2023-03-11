@@ -6,6 +6,7 @@ import PagesNav from '../../common/PagesNav/PagesNav'
 import {posts} from "../../data/WDress"
 import PagesConText from '../../common/PagesConText/PagesConText'
 
+
 function WDress() {
     return (
         <div className='section-ring' style={{paddingTop:'70px'}}>

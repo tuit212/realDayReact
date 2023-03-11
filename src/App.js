@@ -19,6 +19,8 @@ import Hairdresser from "./Pages/Hairdresser/Hairdresser";
 import DetalsItem from "./common/DetalsItem/DetalsItem";
 import WeddingCarsItem from "./common/WeddingCarsItem/WeddingCarsItem";
 import StageDecorationItem from "./Pages/StageDecoration/StageDecorationItem";
+import WdressItem from "./Pages/WDress/WdressItem";
+import InvitationsItem from "./Pages/Invitations/InvitationsItem";
 
 
 
@@ -51,8 +53,10 @@ function App({bool}) {
         <Route path="/stageDecoration" element={<StageDecoration/>} />
         <Route path="/stageDecoration/:id" element={<StageDecorationItem/>} />
         <Route path="/invitations" element={<Invitations/>} />
+        <Route path="/invitations/:id" element={<InvitationsItem/>} />
         <Route path="/flowers" element={<Flowers/>} />
         <Route path="/weddingDresses" element={<WDress/>} />
+        <Route path="/weddingDresses/:id" element={<WdressItem/>} />
         <Route path="/artists" element={<Artists/>} />
         <Route path="/hairdresser" element={<Hairdresser/>} />
         <Route path="*" element={<NotFound/> }/>

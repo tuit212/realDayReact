@@ -3,6 +3,7 @@ import { posts } from '../../data/wedding'
 import './DetalsItem.scss'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import { SailingOutlined } from '@mui/icons-material'
 
 
 
@@ -11,6 +12,7 @@ function DetalsItem() {
     const {id} = useParams();
 
     const post = posts.find((item) => item.id === id - 0)
+    // SailingOutlined
 
     return (
         <div className='detalsItem-section'>

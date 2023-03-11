@@ -1,3 +1,6 @@
+import versal from '../Assets/images/pages/wedding/pages/image.svg'
+import logo from '../Assets/images/pages/wedding/pages/log.svg'
+
 export const posts = [
     {
         id: 1,
@@ -10,7 +13,8 @@ export const posts = [
         text2 :"kishi boshiga" ,
         bottom3 : "Bor" ,
         text3 : "Qo‘shimcha bonus" ,
-        images : "https://www.afisha.uz/uploads/media/2006/10/0347168.jpeg",
+        images : `${versal}`,
+        logo : `${logo}`,
         img1 : "https://i.ytimg.com/vi/j2xG-WqxbSE/maxresdefault.jpg" , 
         img3 : "https://avatars.mds.yandex.net/get-altay/1879929/2a0000016de9f4d561aaa3c36b0f8838d9e0/XXL_height" , 
         people : "../Assets/images/pages/wedding/pages/people.svg" , 

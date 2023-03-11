@@ -1,3 +1,125 @@
 .detalsItem-section{
     padding-top: 90px;
+
+    .wedding{
+        padding: 0 100px;
+    }
+
+    .item__top{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 24px;
+        justify-content: space-between;
+
+        .img{
+            width: 57%;
+            border-radius: 20px;
+
+            & > img {
+                width: 100%;
+                height: 510px;
+                border-radius: 20px;
+            }
+        }
+
+        .content{
+            width: 40%;
+            border-radius: 29px;
+            background: #F9F9F9;
+            padding: 20px 24px;
+
+            .logo{
+                margin: 0 auto;
+                display: block;
+            }
+
+            .item__top-title{
+                text-align: center;
+                margin: 7px 0;
+            }
+
+            .text{
+                text-align: center;
+                font-weight: 400;
+                line-height: 17px;
+                font-size: 14px;
+                color: #3F3F3F;
+                margin-bottom: 32px;
+            }
+
+            .button {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 25px;
+
+                .b{
+                    width: 46%;
+                    display: block;
+                    border: none;
+                    border-radius: 6px;
+                    background: #FF365F;
+                    font-weight: 400;
+                    line-height: 15px;
+                    font-size: 12px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    padding: 13px 0 14px 0;
+                    transition: all 0.5s;
+
+                    &:active{
+                        transform: scale(0.98);
+                    }
+                }
+
+                .link{
+                    width: 46%;
+                    display: block;
+                    text-decoration: none;
+                    background: #FFFFFF;
+                    border-radius: 6px;
+                    border: 1px solid #2E2E2E;
+                    font-weight: 400;
+                    line-height: 15px;
+                    font-size: 12px;
+                    text-align: center;
+                    color: #090909;
+                    padding: 12px 0 13px 0;
+                }
+            }
+
+            .boxContent{
+                background: #FFFFFF;
+                border-radius: 9px;
+                border: 1px solid #EBEBEB;
+                padding: 13px 19px;
+                height: 170px;
+
+                & > h4 {
+                    font-weight: 500;
+                    line-height: 17px;
+                    color: #3F3F3F;
+                    font-size: 14px;
+                }
+            }
+
+            .linkContent{
+                text-align: center;
+                margin-top: 10px;
+
+                & > span {
+                    font-weight: 400;
+                    line-height: 15px;
+                    font-size: 12px;
+                    color: #000000;
+                }
+
+                & > i {
+                    color: #FF365F;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
 }

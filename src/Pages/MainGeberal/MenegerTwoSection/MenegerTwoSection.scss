@@ -1,7 +1,23 @@
 .MenegerTwoSection{
-    padding: 30px 100px;
     background-color: rgb(252, 246, 242);
+    padding: 30px 100px;
     
+    .onbtn{
+
+        display: block;     
+        padding: 10px 20px;
+        margin: 0 auto;;
+        margin-top: 10px;
+        background: #FF416C;
+        border-radius: 12px;
+        color: white;
+        border: 1px solid #FF416C;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
       
     
     .box{
@@ -59,17 +75,86 @@
         &__right{
         
             &__list1{
+             
+                
+                       
                 &__item{
-                        
-                        
+                     position: relative;
+                     
+                     
+                            &__img22{
+                                top: 1934.5px;
+                                position:   absolute;
+                                right: 538px;
+                                width: 19.2%;
+                                border-radius:  20px 0 20px 20px;
+                                padding: 10px;
+                                transition: 0.5s;
+                                height: 274px;
+                                mix-blend-mode: hard-light;
+                                background: linear-gradient(86.62deg, #EBEBEB 55.84%, rgba(194, 191, 191, 0) 88.17%);
+                                transform: rotate(-90deg);
+                            }
+                               &__img23{
+                                position:   absolute;
+                                width: 270px;
+                                left: 286.6px;
+                                bottom: -2px;
+                                border-radius:  20px 0 0px 20px;
+                                padding: 10px;
+                                transition: 0.5s;
+                                mix-blend-mode: hard-light;
+                                background: linear-gradient(86.62deg, #EBEBEB 55.84%, rgba(194, 191, 191, 0) 88.17%);
+                                transform: rotate(-90deg);
+                                height: 274px;
+                            }
+                               &__img24{
+                                position:   absolute;
+                                width: 20%;
+                                left:226px;
+                                bottom: -2px;
+                                top: -44.5px;
+                                z-index: 999;
+                                border-radius:  20px 0 0px 20px;
+                                padding: 10px;
+                                transition: 0.5s;
+                                mix-blend-mode: hard-light;
+                                background: linear-gradient(86.62deg, #EBEBEB 55.84%, rgba(194, 191, 191, 0) 88.17%);
+                                transform: rotate(-90deg);
+                                height: 66.5vh;
+                            }
+                               &__img26{
+                                position:   absolute;
+                                width: 10%;
+                                top: 1859.2px;
+                                z-index: 999;
+                                left: 365px;
+                                border-radius:  20px 0 0px 20px;
+                                padding: 10px;
+                                transition: 0.5s;
+                                mix-blend-mode: hard-light;
+                                background: linear-gradient(86.62deg, #EBEBEB 55.84%, rgba(194, 191, 191, 0) 88.17%);
+                                transform: rotate(-90deg);
+                                height: 67.4vh;
+                            }
+                            
+                             &__img27{
+                                    position:   absolute;
+                                    width: 10%;
+                                    top: 1697.6px;
+                                    z-index: 999;
+                                    left: 513.8px;
+                                    border-radius:  20px 0 0px 20px;
+                                    padding: 10px;
+                                    transition: 0.5s;
+                                    mix-blend-mode: hard-light;
+                                    background: linear-gradient(86.62deg, #EBEBEB 55.84%, rgba(194, 191, 191, 0) 88.17%);
+                                    transform: rotate(-90deg);
+                                    height: 32.2vh;
+                            }
                         &__img1{
                             margin-bottom: 10px;
-                            
-                            &:hover{
-                                
-background: linear-gradient(86.62deg, #EBEBEB 55.84%, rgba(194, 191, 191, 0) 88.17%);
-mix-blend-mode: hard-light;
-                            }
+                            width: 98.6%;
                         }
                     &__divs{
                         display: flex;

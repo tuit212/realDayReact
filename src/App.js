@@ -23,6 +23,8 @@ import WdressItem from "./Pages/WDress/WdressItem";
 import InvitationsItem from "./Pages/Invitations/InvitationsItem";
 import FlowersItem from "./Pages/Flowers/FlowersItem";
 import RingItem from "./Pages/Ring/RingItem";
+import Sweets from "./Pages/Sweets/Sweets";
+import SweetsItem from "./Pages/Sweets/SweetsItem";
 
 
 
@@ -63,6 +65,8 @@ function App({bool}) {
         <Route path="/weddingDresses/:id" element={<WdressItem/>} />
         <Route path="/artists" element={<Artists/>} />
         <Route path="/hairdresser" element={<Hairdresser/>} />
+        <Route path="/sweets" element={<Sweets/>} />
+        <Route path="/sweets/:id" element={<SweetsItem/>} />
         <Route path="*" element={<NotFound/> }/>
       </Routes>
       <Footer/>

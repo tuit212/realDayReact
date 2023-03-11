@@ -13,6 +13,7 @@ function DetalsItem() {
 
     const post = posts.find((item) => item.id === id - 0)
     // SailingOutlined
+    
 
     return (
         <div className='detalsItem-section'>

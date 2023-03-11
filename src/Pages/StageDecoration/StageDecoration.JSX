@@ -3,6 +3,8 @@ import './StageDecoration.scss'
 import PagesHero from '../../common/PagesHero/PagesHero'
 import '../Wedding/Wedding.scss'
 import PagesNav from '../../common/PagesNav/PagesNav'
+import {posts} from '../../data/StageDecoration'
+import PagesConText from '../../common/PagesConText/PagesConText'
 
 function StageDecoration() {
     return (
@@ -18,6 +20,9 @@ function StageDecoration() {
             <div className='wedding_main'>
                 <PagesNav/>
                 <div className='wedding_right'>
+                    {posts.map(post => (
+                        <PagesConText key={post.id} post={post}/>
+                    ))}
                 </div>
             </div>
         </div>

@@ -1,13 +1,12 @@
 import React from 'react'
-import { posts } from '../../data/wedding'
-import './DetalsItem.scss'
+import {posts} from '../../data/weddingCars'
 import { useParams } from 'react-router-dom'
+import "../DetalsItem/DetalsItem.scss"
 
-function DetalsItem() {
-
+function WeddingCarsItem() {
     const {id} = useParams();
-
     const post = posts.find((item) => item.id === id - 0)
+    console.log(posts);
 
     return (
         <div className='detalsItem-section'>
@@ -25,4 +24,4 @@ function DetalsItem() {
     )
 }
 
-export default DetalsItem
+export default WeddingCarsItem

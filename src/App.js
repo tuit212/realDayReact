@@ -17,6 +17,8 @@ import WDress from "./Pages/WDress/WDress";
 import Artists from "./Pages/Artists/Artists";
 import Hairdresser from "./Pages/Hairdresser/Hairdresser";
 import DetalsItem from "./common/DetalsItem/DetalsItem";
+import WeddingCarsItem from "./common/WeddingCarsItem/WeddingCarsItem";
+import StageDecorationItem from "./Pages/StageDecoration/StageDecorationItem";
 
 
 
@@ -43,14 +45,14 @@ function App({bool}) {
         <Route path="wedding/:id" element={<DetalsItem/>} />
         <Route path="/menenjer"  element={<MainGeneral/>} />
         <Route path="/weddingCard"  element={<WeddingCars/>} />
-        <Route path="weddingCard/:id" element={<DetalsItem/>} />
+        <Route path="/weddingCard/:id" element={<WeddingCarsItem/>} />
         <Route path="/ring" element={<RIng/>} />
         <Route path="/multiHeroes" element={<MultiHeroes/>} />
         <Route path="/stageDecoration" element={<StageDecoration/>} />
+        <Route path="/stageDecoration/:id" element={<StageDecorationItem/>} />
         <Route path="/invitations" element={<Invitations/>} />
         <Route path="/flowers" element={<Flowers/>} />
         <Route path="/weddingDresses" element={<WDress/>} />
-        <Route path="weddingDresses/:id" element={<DetalsItem/>} />
         <Route path="/artists" element={<Artists/>} />
         <Route path="/hairdresser" element={<Hairdresser/>} />
         <Route path="*" element={<NotFound/> }/>

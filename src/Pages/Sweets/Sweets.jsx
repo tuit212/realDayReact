@@ -1,20 +1,20 @@
 import React from 'react'
-import './StageDecoration.scss'
 import PagesHero from '../../common/PagesHero/PagesHero'
 import '../Wedding/Wedding.scss'
+import './Sweets.scss'
 import PagesNav from '../../common/PagesNav/PagesNav'
-import {posts} from '../../data/StageDecoration'
+import {posts} from '../../data/Sweets'
 import PagesConText from '../../common/PagesConText/PagesConText'
 
-function StageDecoration() {
+function Sweets() {
     return (
         <div className='section-ring' style={{paddingTop:'70px'}}>
-            <div id="sahnaHero">
+            <div id="sweets">
                 <PagesHero
-                    title="Sahna bezaklari"
+                    title="Shirinliklar"
                     desc="O'zingiz uchun eng yaxshi to'yxonalardan  mukammal joyni toping."
-                    link = "/stageDecoration"
-                    text="Sahna bezaklari"
+                    link = "/sweets"
+                    text="Shirinliklar"
                 />
             </div>
             <div className='wedding_main'>
@@ -29,4 +29,4 @@ function StageDecoration() {
     )
 }
 
-export default StageDecoration
+export default Sweets

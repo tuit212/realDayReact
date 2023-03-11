@@ -3,6 +3,8 @@ import PagesHero from '../../common/PagesHero/PagesHero'
 import './Wedding.scss'
 import PagesNav from '../../common/PagesNav/PagesNav'
 import PagesConText from '../../common/PagesConText/PagesConText'
+import {posts} from "../../data/wedding.js"
+
 
 function Wedding() {
     return (
@@ -18,11 +20,9 @@ function Wedding() {
             <div className='wedding_main'>
                 <PagesNav/>
                 <div className='wedding_right'>
-                    <PagesConText/>
-                    <PagesConText/>
-                    <PagesConText/>
-                    <PagesConText/>
-                    <PagesConText/>
+                    {posts.map(post => (
+                        <PagesConText key={post.id} post={post}/>
+                    ))}
                 </div>
             </div>
         </div>

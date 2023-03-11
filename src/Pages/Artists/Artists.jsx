@@ -3,7 +3,6 @@ import PagesHero from '../../common/PagesHero/PagesHero'
 import './Artists.scss'
 import '../Wedding/Wedding.scss'
 import PagesNav from '../../common/PagesNav/PagesNav'
-import PagesConText from '../../common/PagesConText/PagesConText'
 
 function Artists() {
     return (
@@ -19,11 +18,6 @@ function Artists() {
             <div className='wedding_main'>
                 <PagesNav/>
                 <div className='wedding_right'>
-                    <PagesConText/>
-                    <PagesConText/>
-                    <PagesConText/>
-                    <PagesConText/>
-                    <PagesConText/>
                 </div>
             </div>
         </div>

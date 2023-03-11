@@ -3,6 +3,8 @@ import PagesHero from '../../common/PagesHero/PagesHero'
 import './Ring.scss'
 import '../Wedding/Wedding.scss'
 import PagesNav from '../../common/PagesNav/PagesNav'
+import {posts} from '../../data/RIng'
+import PagesConText from '../../common/PagesConText/PagesConText'
 
 function RIng() {
     return (
@@ -18,6 +20,9 @@ function RIng() {
             <div className='wedding_main'>
                 <PagesNav/>
                 <div className='wedding_right'>
+                    {posts.map(post => (
+                        <PagesConText key={post.id} post={post}/>
+                    ))}
                 </div>
             </div>
         </div>

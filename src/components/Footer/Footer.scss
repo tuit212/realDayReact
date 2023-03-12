@@ -1,0 +1,29 @@
+
+.footer__section{
+    margin-top: 30px;
+    
+    .footer__top {
+        background: #E8F6FD;
+        padding: 40px 100px 23px 100px;
+    }
+
+    .footer__bottom {
+      background-color: #fff;
+      padding: 16px 0;
+
+      .footer-bottom {
+        display: flex;
+        align-items: center;
+        gap: 360px;
+        padding: 0 100px;
+
+        & > p {
+            font-weight: 400;
+            line-height: 17px;
+            font-size: 14px;
+            color: #868585;
+            margin: 0;
+        }
+      }
+    }
+}

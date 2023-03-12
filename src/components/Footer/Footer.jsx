@@ -1,8 +1,6 @@
 import React from 'react'
 import './Footer.scss'
 import { Link } from 'react-router-dom'
-import logo from '../../Assets/images/logo.svg'
-
 function Footer() {
     return (
         <div className='footer__section'>

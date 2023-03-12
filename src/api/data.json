@@ -17,6 +17,15 @@
         "city": "new York",
         "password": "912989808",
         "phone": "912989808"
+      },
+      {
+        "id": 3,
+        "name": "asa",
+        "username": "Bret",
+        "email": "asa@gmail.com",
+        "city": "new York",
+        "password": "912989808",
+        "phone": "912989808"
       }
     ]
 }

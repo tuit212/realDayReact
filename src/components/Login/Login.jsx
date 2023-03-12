@@ -3,7 +3,7 @@ import { useRef , useState , useEffect , useContext } from 'react'
 import "./Login.scss"
 import { Link } from 'react-router-dom';
 // import UserConText from '../../context/UserContext';
-// import axios from '../../api/axios';
+import axios from '../../api/axios';
 // const LOGIN_URL = './auth'
 
 function Login() {
@@ -63,7 +63,7 @@ function Login() {
                                 <div>
                                     <label htmlFor="tel">Telefon</label>
                                     <input type="tel" id='tel' name='phone' ref={userRef}  autoComplete="off" 
-                                        onChange={(e) => setUser(e.target.value)}  placeholder='+998 99 999 99 99'
+                                        onChange={(e) => {alert("telifon raqamda xato")}}  placeholder='+998 99 999 99 99'
                                         value={user} required
                                     />
                                 </div>
@@ -88,7 +88,7 @@ function Login() {
                                         <p>Google</p>
                                     </div>
                                 </div>
-                                <button className='btn'>Login</button>
+                                <button type='submit' className='btn'>Login</button>
                             </form>
                         </div>
                     </div>

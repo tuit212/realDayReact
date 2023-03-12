@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 
 
 
+
 function DetalsItem() {
 
     const {id} = useParams();

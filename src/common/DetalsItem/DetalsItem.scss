@@ -122,4 +122,15 @@
             }
         }
     }
+
+    .item__center {
+        margin-top: 40px;
+
+        & > h3 {
+            font-weight: 500;
+            line-height: 43px;
+            font-size: 35px;
+            color: #000;
+        }
+    }
 }

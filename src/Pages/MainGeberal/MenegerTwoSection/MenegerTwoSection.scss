@@ -17,6 +17,11 @@
         font-size: 18px;
         line-height: 22px;
         color: #FFFFFF;
+        transition: 0.1s;
+        
+        &:active{
+            transform: scale(0.96);
+        }
     }
       
     

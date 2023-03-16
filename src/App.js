@@ -10,7 +10,6 @@ import WeddingCars from "./Pages/WeddingCars/WeddingCars";
 import RIng from "./Pages/Ring/RIng";
 import MultiHeroes from "./Pages/MultiHeroes/MultiHeroes";
 import MainGeneral from "./Pages/MainGeberal/MainGeneral";
-import StageDecoration from "./Pages/StageDecoration/StageDecoration.jsx";
 import Invitations from "./Pages/Invitations/Invitations";
 import Flowers from "./Pages/Flowers/Flowers";
 import WDress from "./Pages/WDress/WDress";
@@ -18,7 +17,6 @@ import Artists from "./Pages/Artists/Artists";
 import Hairdresser from "./Pages/Hairdresser/Hairdresser";
 import DetalsItem from "./common/DetalsItem/DetalsItem";
 import WeddingCarsItem from "./common/WeddingCarsItem/WeddingCarsItem";
-import StageDecorationItem from "./Pages/StageDecoration/StageDecorationItem";
 import WdressItem from "./Pages/WDress/WdressItem";
 import InvitationsItem from "./Pages/Invitations/InvitationsItem";
 import FlowersItem from "./Pages/Flowers/FlowersItem";
@@ -62,8 +60,6 @@ function App({bool}) {
         <Route path="/ring" element={<RIng/>} />
         <Route path="/ring/:id" element={<RingItem/>} />
         <Route path="/multiHeroes" element={<MultiHeroes/>} />
-        <Route path="/stageDecoration" element={<StageDecoration/>} />
-        <Route path="/stageDecoration/:id" element={<StageDecorationItem/>} />
         <Route path="/invitations" element={<Invitations/>} />
         <Route path="/invitations/:id" element={<InvitationsItem/>} />
         <Route path="/flowers" element={<Flowers/>} />

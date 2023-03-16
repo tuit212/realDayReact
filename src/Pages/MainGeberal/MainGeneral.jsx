@@ -1,4 +1,5 @@
 import React from 'react'
+import Mainthreesection from './Mainthreesection/Mainthreesection'
 import MenegerOneSection from './MenegerOneSection/MenegerOneSection'
 import MenegerTwoSection from './MenegerTwoSection/MenegerTwoSection'
 import MenejerHeader from './MenejerHeader/MenejerHeader'
@@ -9,6 +10,7 @@ function MainGeneral() {
             <MenejerHeader/>
             <MenegerOneSection/>
             <MenegerTwoSection />
+            <Mainthreesection/>
         </div>
     )
 }

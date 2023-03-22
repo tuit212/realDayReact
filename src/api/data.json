@@ -1,0 +1,31 @@
+{
+    "posts" : [
+      {
+        "id": 1,
+        "name": "asa",
+        "username": "Bret",
+        "email": "asa@gmail.com",
+        "city": "new York",
+        "password": "123456",
+        "phone": "123456"
+      },
+      {
+        "id": 2,
+        "name": "asa",
+        "username": "Bret",
+        "email": "asa@gmail.com",
+        "city": "new York",
+        "password": "912989808",
+        "phone": "912989808"
+      },
+      {
+        "id": 3,
+        "name": "asa",
+        "username": "Bret",
+        "email": "asa@gmail.com",
+        "city": "new York",
+        "password": "912989808",
+        "phone": "912989808"
+      }
+    ]
+}

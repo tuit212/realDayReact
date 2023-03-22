@@ -24,12 +24,19 @@ import RingItem from "./Pages/Ring/RingItem";
 import Sweets from "./Pages/Sweets/Sweets";
 import SweetsItem from "./Pages/Sweets/SweetsItem";
 
+// login
+import { useState } from "react";
 
 
 function App({bool}) {
 
+  const [success , setSuccess] = useState(false);
+  // const [success , setSuccess] = useState(true);
+
+  // console.log(success);
+  // const users = false;
+
   
-  const users = false;
 
   
 
@@ -39,10 +46,10 @@ function App({bool}) {
 
   return (
     <div className="App">
-      <Header users={users}/>
+      <Header users={success}/>
       <Routes>
         <Route path="/" element={ <Main/>} />
-        <Route path="/login" element={users ? <Navigate to="/" /> : <Login/>} />
+        <Route path="/login" element={success ? <Navigate to="/" /> : <Login/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<SingIn/>} />
         <Route path="/wedding" element={<Wedding/>} />

@@ -1,17 +1,14 @@
 import { createContext , useState } from "react";
 
-const UserConText = createContext();
+const UserConText = createContext({});
 
 const UserContextProvider = ({children}) => {
-    const [user , setUser] = useState({
-        phone :null,
-        password :null,
-    })
+    const [auth , setAuth] = useState({})
 
 
 
     return (
-        <UserConText.Provider value={{user , setUser}}>
+        <UserConText.Provider value={{auth , setAuth}}>
             {children}
         </UserConText.Provider>
     )
